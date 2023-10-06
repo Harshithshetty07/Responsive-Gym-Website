@@ -34,7 +34,7 @@ body{
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600);
+    background: var(--color-secondary);
 }
 
 .container {
@@ -58,6 +58,9 @@ h2 {
 a {
     color: var(--color-gray-100);
 }
+p {
+    color: white;
+}
 
 img {
     object-fit: cover;
@@ -66,12 +69,6 @@ img {
     top: 15px;
     position: relative;
 }
-
-
-
-
-
-
 
 
 .btn {
@@ -85,7 +82,7 @@ img {
 }
 
 .btn:hover {
-    background: var(--color-secondary);
+    background: red;
     color: var(--color-gray-600);
 
 }
